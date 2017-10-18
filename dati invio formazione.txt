@@ -1,0 +1,45 @@
+Request URL:http://leghe.fantagazzetta.com/Servizi/InserisciFormazione.asmx/InserisciFormazione
+Request Method:POST
+Status Code:200 OK
+Remote Address:54.239.158.15:80
+Referrer Policy:no-referrer-when-downgrade
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 96
+Connection: keep-alive
+Cache-Control: private, max-age=0
+Date: Wed, 27 Sep 2017 08:51:06 GMT
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Cache: Miss from cloudfront
+Via: 1.1 5298d14814ac28e02807dcd709261cca.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: pw23JBjMRQNkxAyTjlNEX9JMCXZuDpJDK4qFiFsWijis_VsPa9d7BA==
+
+
+POST /Servizi/InserisciFormazione.asmx/InserisciFormazione HTTP/1.1
+Host: leghe.fantagazzetta.com
+Connection: keep-alive
+Content-Length: 456
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://leghe.fantagazzetta.com
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Type: application/json; charset=UTF-8
+Referer: http://leghe.fantagazzetta.com/fantagarage-league/inserisci-formazione
+Accept-Encoding: gzip, deflate
+Accept-Language: it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2
+Cookie: LegheFGleghe2017-18=0=smOgQhMEfNU3xnojONSsQA==&1=ddQhv2hG4q4HJL8jDtegjMSCnmCIGfJk&2=07/09/2017 10:02:24&3=zQgdcghQQsiUdywj8gUvjHx0RIzw+1Z9k08Qgx/OLhOhZuQNHsLHD+oqr+bJ1isU&4=gagginaspinnata@gmail.com; _iub_cs-8191812=%7B%22consent%22%3Atrue%2C%22timestamp%22%3A%222017-09-08T15%3A04%3A34.880Z%22%2C%22version%22%3A%221.1.12%22%2C%22id%22%3A8191812%7D; fantagarage-leagueleghe2017-18=0=-1&1=fantagarage league&2=g8kqNt3Gc+rEgp5giBnyZA==&3=real ficagna&4=gh+425oRUc8EvLKDeyCukg==&5=0&6=27/09/2017 09:59:56; AWSELB=AD276B831432ED529C35D69CB2AF6A3F8C2913F612047C39E8529FA5AE2FA2FB5DC819BDC26A433F17EFEE21831AA343F220BF86290D14B7A6714D0C1E84B29D516661E22B; BetterJsPop0=1; comp_fantagarage-leagueleghe2017-18=0=112915; _iub_cs-710963=%7B%22consent%22%3Atrue%2C%22timestamp%22%3A%222016-11-24T09%3A31%3A33.910Z%22%2C%22version%22%3A%220.13.9%22%2C%22id%22%3A710963%7D
+
+
+{
+    'uno': 'pD8g2jrUQO8TG02X7xNsmcDimEXqWllusDe/SWp15bSzv+PEdmmBIXbctQYxaUGikulmg7hRbFdNL/QUSf6tjuG0JPZIij2kn/fkNf9zC6HMUwpP1ewiMoLF6UCkAA6bNhEnspzsfS0vlsrkcgO1zlLNBvRlcSTY+PMuDzYoMsnja7DC6AQmvgWmDcGii/CEoAaeGymfM8nMTkGM1RPNpw==', //contenuto del div con id #chk_for
+    'due':'282,257,392,492,402,265,1850,376,475,2061,406', 
+    'tre':'453,513,99,1996,1972,26,795', 
+    'quattro': '343', 
+    'cinque': 'false', //checkbox nascosto
+    'sei': '1', 
+    'sette': 'http://leghe.fantagazzetta.com/fantagarage-league/formazioni',  // da prendere dall'imput con id #urllega
+    'otto': '003' //costante fissa
+    }

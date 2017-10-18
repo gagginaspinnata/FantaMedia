@@ -1,0 +1,36 @@
+{
+    "name": "FantaMedia", //Name of your extension
+    "description": "Mostra la fantamedia nella pagina delle formazioni.",
+    "version": "0.0.0.1", 
+
+    "manifest_version": 2,
+    "page_action": {
+    //   "default_icon": "./icon/icon128.png", //Icon path
+      "default_popup": "./index.html",   //Default html file that will be loaded ones the extension is triggered
+      "default_title": "Save that link!" 
+    },
+   "background":{
+       "scripts":["./js/eventPage.js"],
+       "persistent":false
+   },
+
+   "icons": {
+        "16":"./icon/icon16.png",
+        "48":"./icon/icon48.png",
+        "128":"./icon/icon128.png"
+   },
+
+
+   "content_scripts":[
+    {
+        "matches":["http://leghe.fantagazzetta.com/*/inserisci-formazione"],
+        "js":["./js/jquery.js","./js/tippy.js","./js/content.js"],
+        "css":["./css/tippy.css"]
+    }
+   ],
+   "permissions":[
+       "tabs",
+       "http://leghe.fantagazzetta.com/*/inserisci-formazione",
+       "https://content.fantagazzetta.com/web/statistiche/*"
+   ]
+  }
