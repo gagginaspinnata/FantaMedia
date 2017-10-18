@@ -12,4 +12,4 @@ Nella pagina delle [release](https://github.com/gagginaspinnata/FantaMedia/relea
 Questa è come appare l'estensione
 ----------------------------------
 
-![immagine](https://preview.ibb.co/j1efQb/Schermata_2017_09_29_alle_10_11_11.png)
+![immagine](https://preview.ibb.co/mLsXQm/Fanta_Media.png)
